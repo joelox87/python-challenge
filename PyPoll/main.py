@@ -1,7 +1,7 @@
 import csv
 
 # Path to the csv file to open
-csvpath = 'PyPoll/Resources/election_data.csv'
+csvpath = '/Users/joelox87/DataBootCamp/python-challenge/PyPoll/Resources/election_data.csv'
 
 # Determine the total number of votes cast
 Votes = int(0)
@@ -103,7 +103,7 @@ print("-------------------------")
 
 # Export a text file with the results
 # Path to the txt file to generate, including filename.
-csvexportpath = 'PyPoll/Resources/election.txt' 
+csvexportpath = '/Users/joelox87/DataBootCamp/python-challenge/PyPoll/Resources/election.txt' 
 
 # Open the txt file
 with open(csvexportpath, 'w') as exportfile: 
