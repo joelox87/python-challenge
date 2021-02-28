@@ -115,7 +115,7 @@ print("Greatest Decrease in Profits: ", Date[GreatestDecPos+1], " ($", int(Great
 
 # Export a text file with the results
 # Path to the analysis.txt file to generate
-csvexportpath = '/Users/joelox87/DataBootCamp/python-challenge/PyBank/Resources/analysis.txt' 
+csvexportpath = '/Users/joelox87/DataBootCamp/python-challenge/PyBank/Analysis/analysis.txt' 
 
 # Open the txt file
 with open(csvexportpath, 'w') as exportfile: 
