@@ -103,7 +103,7 @@ print("-------------------------")
 
 # Export a text file with the results
 # Path to the txt file to generate, including filename.
-csvexportpath = '/Users/joelox87/DataBootCamp/python-challenge/PyPoll/Resources/election.txt' 
+csvexportpath = '/Users/joelox87/DataBootCamp/python-challenge/PyPoll/Analysis/election.txt' 
 
 # Open the txt file
 with open(csvexportpath, 'w') as exportfile: 
